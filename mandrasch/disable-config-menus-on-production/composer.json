@@ -1,0 +1,19 @@
+{
+    "name": "mandrasch/hide-config-menus-on-production",
+    "autoload": {
+        "psr-4": {
+            "Mandrasch\\DisableConfigMenusOnProduction\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Disable Config Menus On Production",
+            "description": "Disable Config Menus On Production addon"
+        },
+        "laravel": {
+            "providers": [
+                "Mandrasch\\DisableConfigMenusOnProduction\\ServiceProvider"
+            ]
+        }
+    }
+}
