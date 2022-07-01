@@ -4,7 +4,7 @@ Quick & dirty experiment for Statamic CMS, work in progress
 
 ## Goal
 
-In (my) perfect world important data structure / config changes are only done in local dev environments. These will be then commited to git and be deployed via Github Action (or similiar) to the production server(s). 
+In my perfect world important data structure or config changes are only done in local dev environments. These will be then commited to git and be deployed via Github Action (or similiar) to the production server(s). 
 
 On production the admins and editors should not have the possibility to alter configs, data schemas, blueprints, etc.
 
