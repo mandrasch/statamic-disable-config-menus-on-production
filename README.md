@@ -8,7 +8,9 @@ In my perfect world important data structure or config changes are only done in 
 
 On production the admins and editors should not have the possibility to alter configs, data schemas, blueprints, etc.
 
-I use [DDEV](https://ddev.com/) for local development, therefore I quickly check if the site runs on ".ddev.site" (local dev) or something else = production. See here for more infos about DDEV & statamic: https://my-ddev-lab.mandrasch.eu/tutorials/cms-and-frameworks/statamic.html
+I use [DDEV](https://ddev.com/) for local development, therefore I quickly check if the site runs on ".ddev.site" (local dev) or something else = production. If the admins visit a forbidden route on a production site, there is an error message. Of course it would be better if admin wouldn't see the "edit blueprint/collection"-button or link in the first place ;-)
+
+See here for more infos about DDEV & statamic: https://my-ddev-lab.mandrasch.eu/tutorials/cms-and-frameworks/statamic.html
 
 ## Installation
 
